@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fanoos-meet-planner/deploy/static/css/main.b315ef3e.chunk.css",
-    "main.js": "/fanoos-meet-planner/deploy/static/js/main.d3dcc60b.chunk.js",
-    "main.js.map": "/fanoos-meet-planner/deploy/static/js/main.d3dcc60b.chunk.js.map",
+    "main.js": "/fanoos-meet-planner/deploy/static/js/main.5577293a.chunk.js",
+    "main.js.map": "/fanoos-meet-planner/deploy/static/js/main.5577293a.chunk.js.map",
     "runtime-main.js": "/fanoos-meet-planner/deploy/static/js/runtime-main.31abffbb.js",
     "runtime-main.js.map": "/fanoos-meet-planner/deploy/static/js/runtime-main.31abffbb.js.map",
     "static/css/2.5a088239.chunk.css": "/fanoos-meet-planner/deploy/static/css/2.5a088239.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.5a088239.chunk.css",
     "static/js/2.ba840f65.chunk.js",
     "static/css/main.b315ef3e.chunk.css",
-    "static/js/main.d3dcc60b.chunk.js"
+    "static/js/main.5577293a.chunk.js"
   ]
 }
