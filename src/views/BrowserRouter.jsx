@@ -5,7 +5,7 @@ import EventDetail from "./event-detail";
 
 export default function BrowserRouter() {
   return (
-    <Router basename="/deploy">
+    <Router basename="/fanoos-meet-planner/deploy">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/event/:id" component={EventDetail} />
