@@ -565,7 +565,7 @@ export default function Home() {
     <Layout>
       <Row className="create-event__head">
         <Col>
-          <h1>New Event</h1>
+          <h1>رویداد جدید</h1>
         </Col>
       </Row>
 
@@ -577,7 +577,7 @@ export default function Home() {
               <Form.Control
                 name="name"
                 type="text"
-                placeholder="Type the event's name"
+                placeholder="عنوان رویداد"
                 value={name}
                 onChange={handleChange}
               />
@@ -587,14 +587,13 @@ export default function Home() {
               <Form.Control
                 name="safeWord"
                 type="text"
-                placeholder="Type a safe word (optional)"
+                placeholder="رمز عبور (اختیاری)"
                 value={safeWord}
                 onChange={handleChange}
               />
 
               <Form.Text className="text-muted">
-                If you want to edit your event, you need to create a safe word,
-                please write one if you think the event information will change.
+                برای اصلاح رویدادتان نیاز به رمز عبور دارید، اگر فکر میکنید نیاز به تغییر خواهد بود، رمز عبور را وارد کنید
               </Form.Text>
             </Form.Group>
 
@@ -602,7 +601,7 @@ export default function Home() {
               <Form.Check
                 name="isRecurrent"
                 type="switch"
-                label="Does this event happen every week?"
+                label="رویداد هر هفته تکرار میشود؟"
                 onChange={handleSwitch}
               />
             </Form.Group>
@@ -616,7 +615,7 @@ export default function Home() {
                     value={initialTime}
                     onChange={handleChange}
                   >
-                    <option value="default">Not earlier than</option>
+                    <option value="default">شروع بازه زمانی</option>
                     {dayHours.map((hour, index) => (
                       <option key={`init-hour-${index}`} value={hour[0]}>
                         {hour[1]}
@@ -634,7 +633,7 @@ export default function Home() {
                     value={finishTime}
                     onChange={handleChange}
                   >
-                    <option value="default">Not later than</option>
+                    <option value="default">انتهای بازه زمانی</option>
                     {dayHours.map((hour, index) => (
                       <option key={`finish-hour-${index}`} value={hour[0]}>
                         {hour[1]}
@@ -652,7 +651,7 @@ export default function Home() {
                 value={deadLine}
                 onChange={handleChange}
               >
-                <option value="default">Enter the survey's end day</option>
+                <option value="default">تاریخ پایان نظرسنجی را وارد کنید</option>
                 {endDaysFormatted.map((days, index) => (
                   <option
                     key={`survey-end-day-${index}`}
@@ -686,7 +685,7 @@ export default function Home() {
           xs={12}
           className="create-event__data__calendar d-flex flex-column"
         >
-          <Form.Label>Please, choose the days that might work</Form.Label>
+          <Form.Label>لطفا تاریخ هایی که بنظرتان مناسب هست انتخاب کنید</Form.Label>
 
           {!isRecurrent ? (
             <DayPicker
@@ -711,7 +710,7 @@ export default function Home() {
               })
             }
           >
-            Create new event
+            ساخت رویداد
           </Button>
         </Col>
       </Row>

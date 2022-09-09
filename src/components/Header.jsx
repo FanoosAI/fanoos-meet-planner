@@ -7,7 +7,7 @@ export default function Header() {
     <header>
       <Navbar>
         <Link to="/" className="navbar-brand">
-          When2Meet Clone
+          
         </Link>
       </Navbar>
     </header>
