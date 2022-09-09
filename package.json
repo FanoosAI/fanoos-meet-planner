@@ -2,7 +2,7 @@
   "name": "when2meet-clone",
   "version": "0.1.0",
   "private": true,
-  "home": "https://fanoosai.github.io/fanoos-meet-planner/deploy",
+  "homepage": "https://fanoosai.github.io/fanoos-meet-planner/deploy",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
